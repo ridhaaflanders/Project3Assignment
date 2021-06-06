@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Comapny Sign Up</title>
+</head>    
+<link href="company-signupstyle.css" rel="stylesheet">
+<script defer src="company-signupscript.js"></script>
+
+<body>
+ <!-- Top navigation -->
+
+<div class="topnav">
+    <!-- Centered link -->
+    <div class="topnav-centered">
+       <a href="#" class="active">
+           <img src="ridhaa-logo.jpg"
+                style="width: 100%;
+                       height: 100%;"></a> 
+     </div>
+       <!-- Left-aligned links (default) -->
+       <a href="#">Home</a>
+       <a href="#">About</a>
+       <a href="#">Jobs</a>
+       <a href="#">Profile</a>
+       <a href="#">Safety</a>
+       <a href="#">Query</a>
+       
+   
+       <!-- Right-aligned links -->
+       <div class="topnav-right">
+         <a href="#search">Login</a>
+   
+       </div>
+       
+     </div>
+   <hr>   
+
+   <div class="holder">
+     <h1>Sign Up Now</h1>
+     <br>
+  <div class="form"> 
+  <label for="companyName">Comapny name:</label>
+  <input type="text" id="companyName" name="companyName" value="">
+
+  <label for="password">Password:</label>
+  <input type="text" id="password" name="fname" value="">
+
+  <label for="Location">Location:</label>
+  <input type="text" id="location" name="fname" value="">
+
+  <label for="Description">Description:</label>
+  <textarea id="description" style="height:150px;" name="fname" value=""></textarea>
+
+  <label for="Contact Info">Contact Info:</label>
+  <input type="text" id="contactInfo" name="fname" value="">
+  
+   </div>
+   <br><br>
+   <button onclick="validate()" id="confirm" class="btn">Confirm</button>
+  </div>
+</body>
+</html>

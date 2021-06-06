@@ -1,0 +1,68 @@
+.topnav {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .topnav a:hover {
+    text-decoration: underline;
+  }
+
+  .topnav-right {
+    float: right;
+  }
+
+  .topnav img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+  }
+
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    width: 53px;
+    height: 57px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    font-size: large;
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    outline: black;
+  }
+
+  .btn:hover {
+    text-decoration: underline;
+  }
+
+  .holder{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 130%;
+    max-width: 50%;
+  }
+
+  .form{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 40px;
+    text-align: left;
+  }
