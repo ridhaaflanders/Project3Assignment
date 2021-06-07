@@ -66,7 +66,7 @@ h2{
     
 }
 
-.section2{
+.section1{
     float:left;
     width: 100%;
     background-color:#dddddd; 
@@ -75,38 +75,38 @@ h2{
     margin-bottom:20px;
    }
    
-   .section2 .help{
+   .section1 .help{
    float: left;
    width: 100%;
    margin-top:60px;
    }
    
-   .section2 .help .left{
+   .section1 .help .left{
        width: 50%;
        float: left;
        padding:0px 10px;
    
    }
-   .section2 .help .left .box{
+   .section1 .help .left .box{
        padding:235px 15px;
        font-size:30px;
        color:#fff;
        background-color: gray;
    }
-   .section2 .help .right{
+   .section1 .help .right{
        width: 50%;
        height: 50%;
        float: left;
        padding: 0px 10px;
    }
-   .section2 .help .right .box1{
+   .section1 .help .right .box1{
        padding:180px 15px;
        font-size:30px;
        color:#fff;
        background-color: gray;
        margin-bottom:20px;
    }
-   .section2 .help .right .box2{
+   .section1 .help .right .box2{
     padding:25px 15px;
     font-size:30px;
     color:#fff;
