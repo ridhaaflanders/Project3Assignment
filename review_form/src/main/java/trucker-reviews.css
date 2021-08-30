@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+
+ul li a:hover {
+    background-color: grey;
+    color: navy;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+
+ul li.active a {
+    background-color: grey;
+    color: navy;
+}
+
+.logo img {
+    float: left;
+    width: 200px;
+    height: auto;
+    transform: translate(-160%, -10%);
+}
+
+
+.main {
+    max-width: 990px;
+    margin: auto;
+}
+
+
+h1 {
+    color: black;
+    font-size: 60px;
+    position: absolute;
+    text-align: center;
+    transform: translate(150%, 40%);
+  
+  
+}
+
+h2 {
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    transform: translate(188%, 600%);
+  
+  
+}
+
+
+p {
+    color: black;
+    font-size: 22px;
+    transform: translate(28%,170%);
+   
+}
+.button {
+    font-family: Arial;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15%;
+    transform: translate(650%, -150%);
+    background-color: #FF0000;
+
+  }
+
+  
+  
+
+
+.one{
+    color: black;
+    font-size: 22px;
+    transform: translate(56%,-700%);
+   
+}
+.two{
+    color: black;
+    font-size: 22px;
+    transform: translate(56%,-632%);
+
+}
+.three{
+    color: black;
+    font-size: 22px;
+    transform: translate(56%,-556%);
+}
+.four{
+    color: black;
+    font-size: 22px;
+    transform: translate(56%,-474%);
+}
+.five{
+    color: black;
+    font-size: 22px;
+    transform: translate(56%,-400%);
+}
+.six{
+    color: #BEBEBE;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    transform: translate(13%,-920%);
+}
+.seven{
+    color: #BEBEBE;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    transform: translate(13%,-880%);
+}
+.eight{
+    color: #BEBEBE;
+    font-size: 16px;
+    transform: translate(13%,-1200%);
+}
+.nine{
+    color: black;
+    font-size: 24px;
+    text-align: right;
+    transform: translate(-20%,-1400%);
+}
+
+.ten{
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    text-justify: auto;
+	width:100%;
+    transform: translate(63%,-210%);
+}
+
+
+.rectangle {
+    height: 250px;
+    width: 100%;
+    background-size: 10%;
+    background-color: #1870d5;
+    padding: 10px;
+    position: relative;
+    top: 82px;
+    border-radius: 3%;
+
+
+}
+.profile {
+    float: left;
+    width: 200px;
+    height: auto;
+    transform: translate(-250%, 180%);
+}
+
+
+
+
+body {
+    background-color: white;
+}
+
+.rate {
+    margin: auto;
+    
+    width: 10%;
+    height: 0px;
+    padding: 10px;
+    position: relative;
+}
+
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+    color: #c59b08;
+}
+
+
