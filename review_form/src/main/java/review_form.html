@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="review_form.css">
+
+<div class="logo">
+  <a href="home.html"><img src="Logo2.png"></div></a>
+
+</head>
+<body>
+
+    <div class="review form">
+        <h1 class="heading1">Write a Review for </h1>
+        <h2 class="heading2">Logi Truck</h2>
+    </div>
+</div>
+<div class="heading"><strong>Software buyers need your help!</strong> Service reviews help the rest of us make great decisions. Not sure where to start?
+    </div>
+
+    <div class="book">
+      <div class="page">
+    
+
+<div class="container">
+  <form action="#" th:action="@{/review_form}" th:object="${review_form}" method="post">
+
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="province">Province</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="province" name="province" placeholder="Your province name.">
+      </div>
+    </div>
+
+
+    <label for="sentence1">Pros: What did you like most about this software?</label>
+    <textarea id="sentence1" name="sentence1" placeholder="What features are most impactful? Is the service easy to use? Was integration with your existing business processes easy? " style="height:200px"></textarea>
+    
+    <label for="sentence2">Cons: What did you like least about this software?</label>
+    <textarea id="sentence2" name="sentence2" placeholder="Are there features you feel are missing or could be improved? Are there aspects of services that are difficult to use? Was integration with your existing business processes difficult?" style="height:200px"></textarea>
+
+    <label for="sentence3">Describe your overall experience with Logi Truck</label>
+    <textarea id="sentence3" name="sentence3" placeholder="What business problems are you solving with LogiTruck? What benefits have you realized?" style="height:200px"></textarea>
+
+    <label for="sentence4">While using Logi Truck , what alternative services(s) were considered?(Optional)</label>
+    <textarea id="sentence4" name="sentence4" placeholder="" style="height:200px"></textarea>
+
+    <label for="sentence5">Why did you choose Logi Truck over these alternative services(s)?(Optional)</label>
+    <textarea id="sentence5" name="sentence5" placeholder="" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit" />
+  </form>
+</div>
+
+</body>
+</html>
